@@ -319,7 +319,7 @@
 
 
 
-@media all and (min-width: 416px) and (max-width: 650px){
+@media all and (min-width: 416px) and (max-width: 650px) {
     #d-1 div {
         margin: auto;
         /* margin-top: 10%; */
@@ -334,10 +334,11 @@
         /* text-align: center; */
     }
 }
+
 @media all and (max-width: 650px) {
 
     .testi h1 {
-        
+
         font-size: 4.5vw;
     }
 
@@ -362,34 +363,24 @@
 
     #d-1 div p {
         font-size: 4.125vw;
-        
+
     }
 
     #icon {
         /* border: solid 1px red; */
-        
+
         font-size: 3.2786458333333335vw;
         /* margin: auto; */
         /* margin: 10% 0% 0% 10%; */
     }
 
     #text p {
-        
         font-size: 3.1067708333333333vw;
-        
-    
     }
 
     #text-2 p {
-        
         font-size: 3.1067708333333333vw;
-        
-    
     }
-
-
-   
-
 
 
     .img {
@@ -480,11 +471,10 @@
 
 
 
-@media all and (max-width: 414px){
+@media all and (max-width: 414px) {
     #d-1 div {
-        
+
         width: 45%;
-        
+
     }
 }
-
