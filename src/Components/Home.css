@@ -1,11 +1,11 @@
 .Home {
     width: 80%;
     margin: auto;
-    height: 600px;
+    /* height: 600px; */
     /* height: 773.941px; */
     flex-shrink: 0;
-    border: solid 1px red;
-    margin-top: 57px;
+    /* border: solid 1px red; */
+    margin-top: 3%;
     position: relative;
     border-radius: 40px;
     background: #ED5A5E;
@@ -34,7 +34,7 @@
 }
 
 .heading-2 {
-    margin-top: 15px;
+    margin-top: 2%;
     /* border: solid 1px black; */
     width: 43%;
     /* margin: 10px 1069px 0px 60px; */
@@ -74,13 +74,13 @@
     font-weight: 400;
     line-height: 34px;
     /* margin: auto; */
-    margin-top: 40px;
+    margin-top: 3%;
 }
 
 .btn {
     display: block;
-    width: 15%;
-    margin-top: 50px;
+    width: 18%;
+    margin-top: 5%;
 }
 
 .button-74 {
@@ -92,9 +92,9 @@
     cursor: pointer;
     display: inline-block;
     font-weight: 600;
-    font-size: 18px;
-    padding: 0 18px;
-    line-height: 50px;
+    font-size: 1.171875vw;
+    padding: 0 1.171875vw;
+    line-height: 3.2552083333333335vw;
     text-align: center;
     text-decoration: none;
     user-select: none;
@@ -113,7 +113,7 @@
 
 .box-2 {
     border: 0px none;
-    height: 886.42px;
+    height: 756.42px;
     /* width: 1138px; */
   }
   
@@ -189,7 +189,7 @@
     }
     
     .heading-2 {
-        margin-top: 15px;
+        margin-top: 2%;
         /* border: solid 1px black; */
         width: 83%;
         /* margin: 10px 1069px 0px 60px; */
@@ -221,25 +221,53 @@
     
     .heading-3 {
         /* border: solid 1px black; */
-        width: 82%;
+        width: 88%;
         color: #FFF;
         font-family: Poppins;
-        font-size: 2.1vw;
+        font-size: 2.2vw;
         font-style: normal;
         font-weight: 400;
         line-height: 34px;
         /* margin: auto; */
-        margin-top: 40px;
+        margin-top: 3%;
     }
     
     .btn {
         display: block;
-        width: 35%;
-        margin-top: 50px;
+        width: 55%;
+        margin-top: 5%;
+    }
+
+    .button-74 {
+        background-color: #fbeee0;
+        border: 1px solid #781215;
+        border-radius: 30px;
+        box-shadow: #781215 4px 4px 0 0;
+        color: #151907;
+        cursor: pointer;
+        display: inline-block;
+        font-weight: 600;
+        font-size: 3.171875vw;
+        padding: 0 15px;
+        line-height: 50px;
+        text-align: center;
+        text-decoration: none;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+    }
+    
+    .button-74:hover {
+        background-color: #fff;
+    }
+    
+    .button-74:active {
+        box-shadow: #781215 2px 2px 0 0;
+        transform: translate(2px, 2px);
     }
 
     .hero-img{
-        width: 50%;
+        width: 60%;
         height: 60px;
         /* border: solid 1px green; */
         margin-top: 5%;
@@ -253,4 +281,10 @@
         height: 450px;
        margin-top: 50px;
     }
+
+    .box-2 {
+        border: 0px none;
+        height: 680.42px;
+        /* width: 1138px; */
+      }
 }

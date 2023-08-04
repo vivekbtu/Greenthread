@@ -10,6 +10,7 @@
     display: flex;
     justify-content: end;
     position: relative;
+    margin-top: 1%;
     /* border: solid 1px green; */
 }
 
@@ -92,7 +93,8 @@
     width: 100%;
     background-color: #e59292;
     position: relative;
-    z-index: 9;
+    top: 0;
+    z-index: 999;
 }
 
 .nav>.nav-header {
@@ -156,10 +158,12 @@
 
 @media (max-width:650px) {
     .nav>.nav-btn {
+        /* border: solid 1px black; */
         display: inline-block;
-        position: absolute;
-        right: 0px;
+        position: fixed;
+        /* right: 0px; */
         top: 0px;
+        background-color: #e87a83;
     }
 
     .nav>.nav-btn>label {
@@ -182,7 +186,7 @@
     }
 
     .nav>.nav-links {
-        position: absolute;
+        position: fixed;
         display: block;
         width: 100%;
         background-color: #bb6767;
